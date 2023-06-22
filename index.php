@@ -31,8 +31,6 @@ $currentUserData = $stmt->fetch(PDO::FETCH_ASSOC);
 $stmt = $read->readData();
 $existingUsers = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-var_dump($existingUsers);
-
 ?>
 
 <!doctype html>
